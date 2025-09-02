@@ -20,9 +20,15 @@
 
 ---
 
-
+## 📸 Afiche
+![Afiche Soporte Garantizado Playa Ancha](afiche.png)
 
 ---
 
 ## 📲 Escanea y contáctanos
+[![QR de contacto](qr_whatsapp.png)](https://wa.me/56992690324)
 
+---
+
+🌐 Página publicada en GitHub Pages:  
+👉 [Soporte Garantizado Valparaíso](https://kmra00.github.io/garantizadovalparaiso/)
