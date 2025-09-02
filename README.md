@@ -18,15 +18,9 @@
 - 📲 WhatsApp: **+56 9 9269 0324**  
 - 📧 Email: **garantizadosoporte@gmail.com**
 
----
-
-## 📸 Afiche
-![Afiche Soporte Garantizado Playa Ancha](afiche.png)
-
----
 
 ## 📲 Escanea y contáctanos
-[![QR de contacto](qr_whatsapp.png)](https://wa.me/56992690324)
+[![QR de contacto](https://github.com/kmra00/garantizadovalparaiso/blob/main/qr_whatsapp.png)](https://wa.me/56992690324)
 
 ---
 
