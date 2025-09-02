@@ -20,10 +20,9 @@
 
 ---
 
-## 📸 Afiche
-![Afiche Soporte Garantizado Playa Ancha](afiche.png)
+
 
 ---
 
 ## 📲 Escanea y contáctanos
-![QR de contacto](qr.png)
+
