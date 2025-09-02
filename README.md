@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -171,7 +170,7 @@
             </div>
             
             <p class="qr-instruction"><span class="highlight">ESCANEA</span> Y CONTÁCTANOS</p>
-            <!-- Espacio para código QR (simulado con icono) -->
+            <!-- [Espacio para código QR (simulado con icono)](https://github.com/kmra00/garantizadovalparaiso/blob/main/qr_whatsapp.png) -->
             <div style="margin: 15px 0; font-size: 60px; color: white;">
                 <i class="fas fa-qrcode"></i>
             </div>
