@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -21,12 +22,19 @@
             padding: 20px;
         }
         
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
         .flyer {
-            width: 350px;
+            max-width: 350px;
             background: white;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            margin: 0 auto;
         }
         
         .header {
@@ -139,42 +147,131 @@
             margin-bottom: 5px;
             color: #f1c40f;
         }
+        
+        .qr-container {
+            margin: 15px auto;
+            width: 150px;
+            height: 150px;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .qr-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        /* Estilos responsivos */
+        @media (min-width: 768px) {
+            .flyer {
+                max-width: 700px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .header {
+                width: 100%;
+            }
+            
+            .price {
+                width: 100%;
+            }
+            
+            .services {
+                width: 50%;
+            }
+            
+            .contact {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .flyer {
+                max-width: 900px;
+            }
+            
+            .header h1 {
+                font-size: 32px;
+            }
+            
+            .services {
+                padding: 30px;
+            }
+            
+            .contact {
+                padding: 30px;
+            }
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+        }
     </style>
 </head>
 <body>
-    <div class="flyer">
-        <div class="header">
-            <div class="logo">SOPORTE GARANTIZADO</div>
-            <h2>PLAYA ANCHA</h2>
-        </div>
-        
-        <div class="price">
-            <p>Desde <span>$5.000</span> dependiendo de la falla</p>
-        </div>
-        
-        <div class="services">
-            <ul>
-                <li><i class="fas fa-check-circle"></i> Diagnóstico superficial sin costo</li>
-                <li><i class="fas fa-check-circle"></i> Solución de fallas, cambio de pantalla y componentes</li>
-                <li><i class="fas fa-check-circle"></i> Formateo e instalación de programas</li>
-                <li><i class="fas fa-check-circle"></i> Recuperación de archivos</li>
-                <li><i class="fas fa-check-circle"></i> Atención de forma remota o presencial</li>
-                <li><i class="fas fa-check-circle"></i> Asesoramiento de armado de PC o de tecnología</li>
-            </ul>
-        </div>
-        
-        <div class="contact">
-            <div class="contact-info">
-                <div class="phone">+56 9 9269 0324</div>
-                <div class="email">garantizadosoporte@gmail.com</div>
+    <div class="container">
+        <div class="flyer">
+            <div class="header">
+                <div class="logo">SOPORTE GARANTIZADO</div>
+                <h2>PLAYA ANCHA - VALPARAÍSO</h2>
             </div>
             
-            <p class="qr-instruction"><span class="highlight">ESCANEA</span> Y CONTÁCTANOS</p>
-            https://github.com/kmra00/garantizadovalparaiso/blob/main/qr_whatsapp.png
-            <div style="margin: 15px 0; font-size: 60px; color: white;">
-                <i class="fas fa-qrcode"></i>
+            <div class="price">
+                <p>Desde <span>$5.000</span> dependiendo de la falla</p>
+            </div>
+            
+            <div class="services">
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Diagnóstico superficial sin costo</li>
+                    <li><i class="fas fa-check-circle"></i> Solución de fallas, cambio de pantalla y componentes</li>
+                    <li><i class="fas fa-check-circle"></i> Formateo e instalación de programas</li>
+                    <li><i class="fas fa-check-circle"></i> Recuperación de archivos</li>
+                    <li><i class="fas fa-check-circle"></i> Atención de forma remota o presencial</li>
+                    <li><i class="fas fa-check-circle"></i> Asesoramiento de armado de PC o de tecnología</li>
+                </ul>
+            </div>
+            
+            <div class="contact">
+                <div class="contact-info">
+                    <div class="phone">+56 9 9269 0324</div>
+                    <div class="email">garantizadosoporte@gmail.com</div>
+                </div>
+                
+                <div class="qr-container">
+                    <img src="https://raw.githubusercontent.com/kmra00/garantizadovalparaiso/main/qr_whatsapp.png" alt="QR Code de WhatsApp">
+                </div>
+                
+                <p class="qr-instruction"><span class="highlight">ESCANEA</span> Y CONTÁCTANOS</p>
             </div>
         </div>
     </div>
+    
+    <a href="https://wa.me/56992690324" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
