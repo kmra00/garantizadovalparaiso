@@ -272,6 +272,7 @@
     <a href="https://wa.me/56992690324" class="whatsapp-float" target="_blank">
         <i class="fab fa-whatsapp"></i>
        <div>AQUI  (https://wa.me/56992690324)</div>
+       <img src="https://www.debate.com.mx/__export/1692218496848/sites/debate/img/2023/08/16/whatsapp-web_x2x_x1x_x1x.jpg_172596871.jpg">
     </a>
 </body>
 </html>
